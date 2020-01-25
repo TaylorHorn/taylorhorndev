@@ -44,3 +44,28 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+# Ignore bundler config.
+/.bundle
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+.byebug_history
+
+# Ignore application configuration
+/config/application.yml
